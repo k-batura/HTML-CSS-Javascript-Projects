@@ -1,0 +1,59 @@
+body
+{
+    font-family: "Times New Roman", Times, sans-serif;
+    text-decoration: none;
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 245px;
+}
+
+a
+{
+    font-style: sans-serif;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+#Login
+{
+    text-align: right;
+    font-size: 10pt;
+    padding: 5px;
+    forground-color: white;
+}
+
+#mainbody
+{
+    border: 1px black solid;
+    width: 250px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+p
+{
+    margin: 3px;
+}
+
+#logo
+{
+    text-align: center;
+}
+
+.width240px
+{
+    margin-left: 3px
+}
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="submit"]
+{
+    width: 240px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Example </title>
+    <meta charset="utf-8">
+    <link href="lab3_ex2.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="totalborder">
+        <!-- all Form Elements are within the <form></form> tags -->
+      <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/buyShirt.php" method="get">
+        <!-- Shirt Selection -->
+        <div id="shirts">
+          <fieldset id="outline1">
+            <legend id="legend">Select Shirt</legend>
+              <p id="shirtimage">
+                  <img src="tshirt.png" alt="nerdshirt">
+              </p>
+              <p>
+                  <label>
+                      <input type="radio" name="color" value="White"><span id="white">White</span>
+                  </label>
+                  <label>
+                      <input type="radio" name="color" value="Red"> <span id="red">Red</span>
+                  </label>
+                  <label>
+                      <input type="radio" name="color" value="Blue"><span id="blue">Blue</span>
+                  </label>
+                  <label>
+                      <input type="radio" name="color" value="Green"><span id="green">Green</span>
+                  </label>
+              </p>
+              <p>
+                <label>Size</label>
+                  <select name="size">
+                    <option value = "Small"> Small</option>
+                    <option value = "Medium"> Medium</option>
+                    <option value = "Large"> Large</option>
+                    <option value = "X-large"> X-Large</option>
+                  </select>
+              </p>
+          </fieldset>
+        </div>
+
+        <!-- Payment Info -->
+        <div id="paymentinfo">
+          <fieldset>
+            <legend>Payment</legend>
+              <p>
+                <input type="radio" name="cardType" value="vs"> Visa
+                <input type="radio" name="cardType" value="mc"> Mastercard
+                <input type="radio" name="cardType" value="ae"> American Express
+              </p>
+              <hr>
+              <p> Card number
+                <input class="smallInput" type="text" name="cc1" maxlength="4">-
+                <input class="smallInput" type="text" name="cc2" maxlength="4">-
+                <input class="smallInput" type="text" name="cc3" maxlength="4">-
+                <input class="smallInput" type="text" name="cc4" maxlength="4">
+              </p>
+              <hr>
+              Expiration: Month (MM)
+                <input class="card-expiration" type="text" name="month" maxlength="2">
+                Year (YY)
+                <input class="card-expiration" type="text" name="year" maxlength="2">
+          </fieldset>
+        </div>
+
+        <!-- Submit/Reset -->
+        <div class="buttonBox">
+            <p id="sub-button">
+                <label for="blacksubmit">Place Order</label>
+                <input id="blacksubmit" type="submit" value="Submit">
+            </p>
+            <p id="res-button">
+                <label for="reset1">Click to Reset</label>
+                <input id="reset1" type="reset" value="Reset">
+            </p>
+        </div>
+      </form>
+    </div>
+
+</body>
+</html>

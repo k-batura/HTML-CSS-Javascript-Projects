@@ -1,0 +1,91 @@
+html
+{
+  font-family: Arial;
+}
+
+body
+{
+  background-image: url("background.png");
+}
+
+#totalborder
+{
+  width: 400px;
+  margin: auto;
+  background-color: #EEEEEE;
+  border: solid 5px #999999;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#shirts
+{
+  text-align: center;
+}
+
+img
+{
+  height: 250px;
+  border: solid 3px black;
+}
+
+#legend
+{
+  text-align: left;
+}
+
+#white
+{
+  border: solid 2px black;
+  background-color: white;
+}
+
+#red
+{
+  border: solid 2px black;
+  background-color: red;
+  color: white;
+}
+#blue
+{
+  border: solid 2px black;
+  background-color: blue;
+  color: white;
+}
+
+#green
+{
+  border: solid 2px black;
+  background-color: green;
+  color: white;
+}
+
+.smallInput
+{
+  width: 4em;
+  font-family: Monospace;
+  text-align: right;
+}
+
+.card-expiration
+{
+  width: 2em;
+  font-family: Monospace;
+}
+
+#sub-button
+{
+  float: left;
+}
+
+#res-button
+{
+  float: right;
+}
+
+#blacksubmit
+{
+  background-color: black;
+  color: white;
+  border: solid 2px black;
+}

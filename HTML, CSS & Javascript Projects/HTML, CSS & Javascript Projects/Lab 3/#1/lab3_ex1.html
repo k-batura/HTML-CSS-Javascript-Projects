@@ -1,0 +1,60 @@
+<!-- Lab3 Task 1 - EECS1012 -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title> Mad Coders </title>
+    <meta charset="utf-8">
+    <link href="lab3_ex1.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <p id="Login"> Already have an account?
+            <a href="https://moodle.yorku.ca">
+              Log in
+              <!--all buttons should have 5px black padding and white text-->
+            </a>
+            <!--The text within the login needs to be a link black
+             background and the forground color is white padding is 5px
+             monospace font has the size of 10pt-->
+        </p>
+    </div>
+        <div id="mainbody">
+             <!--The div should have a width of 250px
+             and the margins should be set to auto top margin
+             should be 20px with black solid border
+             All paragraps should have a margin of 2px-->
+          <form action="https://www.eecs.yorku.ca/~mbrown/EECS1012/testForm.php" method="get">
+            <p id="logo">
+                <img src="logo.png" alt="Mad Coder Club">
+            </p>
+            <p class="width240px" id="text">
+                Name:
+                <br>
+                <input class="textInput" type="text" name="name">
+            </p>
+            <p class="width240px" id="email">
+                Email:
+                <br>
+                <input type="email" name="Email">
+            </p>
+            <p class="width240px" id="password">
+                Password:
+                <br>
+                <input type="password" name="Password" >
+            </p>
+            <p id="checkbox">
+                <input type="checkbox" name="Agreed" value="yes">
+                I agree to the terms and conditions?
+            </p>
+            <P class="width240px" id="createaccount">
+                <button>
+                    Create my account
+                </button>
+            </p>
+          </form>
+      </div>
+</body>
+</html>

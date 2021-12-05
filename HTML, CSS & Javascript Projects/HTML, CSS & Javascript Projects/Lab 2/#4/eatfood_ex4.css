@@ -1,0 +1,81 @@
+*
+{
+    font: arial, sans-serif;
+}
+
+body
+{
+    background-image: url("images/background.gif");
+    border: 5px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+
+.all
+{
+  background-color: white;
+}
+
+.header
+{
+    text-align: right;
+    background-color: rgb(168, 213, 225);
+    border: 5px solid white;
+}
+
+.purple
+{
+    border-bottom: 2px dashed black;
+}
+
+.body1, .body2, .body3, .body4
+{
+    background-color: rgb(196, 226, 255);
+    border: 5px solid rgb( 168, 213, 225);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+img.right1
+  {
+    float: right;
+  }
+.idlyP
+{
+  overflow: hidden;
+}
+
+img.right2
+  {
+    float: right;
+  }
+.pideP
+{
+  overflow: hidden;
+}
+
+img.right3
+  {
+    float: right;
+  }
+.shawarmaP
+{
+  overflow: hidden;
+}
+
+img.right4
+  {
+    float: right;
+  }
+  
+.jianbingP
+{
+  overflow: hidden;
+}
+
+.footer
+{
+    padding: 10px;
+    text-align: center;
+}
